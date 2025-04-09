@@ -244,3 +244,29 @@ footer {
 footer.hidden {
     display: none;
 }
+
+/* Mode Buttons for Landing Page */
+.mode-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.mode-buttons .green-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #71b139; /* Matching green */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    transition: background-color 0.3s;
+}
+
+.mode-buttons .green-button:hover {
+    background-color: #5e9e2f;
+}
